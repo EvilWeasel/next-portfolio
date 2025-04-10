@@ -4,6 +4,8 @@ import { GridBackground } from "./ui/GridBackground";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export const Hero = () => {
+  const heck =
+    "How much wood could a woodchuck chuck, if a woodchuck could chuck wood?";
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -22,10 +24,7 @@ export const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
           </h2>
-          <TextGenerateEffect
-            duration={2}
-            words="How much wood could a woodchuck chuck, if a woodchuck could chuck wood?"
-          />
+          <TextGenerateEffect duration={2} words={heck} />
         </div>
       </GridBackground>
     </div>
