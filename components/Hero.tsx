@@ -6,8 +6,6 @@ import { MagicButton } from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
 export const Hero = () => {
-  const heck =
-    "How much wood could a woodchuck chuck, if a woodchuck could chuck wood?";
   return (
     <div className="pb-20 pt-36">
       <div>
